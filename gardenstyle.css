@@ -1,0 +1,106 @@
+body {
+	box-sizing: border-box;
+}
+.container {
+	background-color: #39C489;
+	border-radius: 10px;
+	margin: 50px;
+	min-height: 940px;
+	min-width: 340px;
+	position: relative;
+}
+.board-game {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+    padding: 1em;
+}
+.board-garden {
+	position: relative;
+    width: 50vw;
+    height: 50vw;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    border: 12px solid #6D5720;
+    border-radius: 12px;
+}
+.board-tool {
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 30%;
+}
+.plant {
+	display: flex;
+	flex-direction: column;
+}
+.carrot {
+	background-image: url("image/carrot.png");
+	background-size: 100px 100px;
+}
+.sunflower {
+	background-image: url("image/flower.png");
+	background-position: top;
+	background-size: 100px 100px;
+}
+.water {
+	background-image: url("image/water-drop.svg");
+}
+.fertilizer {
+	background-image: url("image/fertilizer.png");
+	background-size: 100px 100px;
+}
+.pesticides {
+	background-image: url("image/pesticides.png");
+	background-size: 100px 100px;
+}
+.plant-item {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height: 100px;
+	margin-top: 20px;
+}
+.item {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #F8F84D;
+	border-radius: 5px;
+}
+.item:hover {
+	border-width: 2px;
+}
+.food {
+	margin-top: 100px;
+}
+.plant-title, .food-title {
+	font-family: 'Helvetica', 'Cursive';
+	font-size: 32px;
+	color: #EFE930;
+	font-weight: 900;
+	text-align: center;
+}
+.amount {
+	font-family: 'Helvetica', 'Cursive';
+	font-size: 30px;
+	color: #6D5720;
+	font-weight: 600;
+	margin-top: 15px;
+	margin-left: 10px;
+	text-align: center;
+}
+.store {
+}
+.soil {
+	display: grid;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	width: 100%;
+	height: 100%;
+}
+.plot {
+	background-color: #504338;
+	background-image: url("image/carrot.png");
+	background-position: top;
+	border: 2px solid #526271;
+}
