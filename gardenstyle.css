@@ -54,6 +54,14 @@ body {
 	background-image: url("image/pesticides.png");
 	background-size: 100px 100px;
 }
+.shovel {
+	background-image: url("image/Shovel-Soil.png");
+	background-size: 100px 100px;
+}
+.pot {
+	background-image: url("image/pot.png");
+	background-size: 100px 100px;
+}
 .plant-item {
 	display: flex;
 	flex-direction: row;
@@ -71,7 +79,7 @@ body {
 	border-width: 2px;
 }
 .food {
-	margin-top: 100px;
+	/* margin-top: 100px; */
 }
 .plant-title, .food-title {
 	font-family: 'Helvetica', 'Cursive';
